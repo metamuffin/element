@@ -18,6 +18,7 @@ import { _t, _td } from "../languageHandler";
 import { ConfettiOptions } from "./confetti";
 import { Effect } from "./effect";
 import { FireworksOptions } from "./fireworks";
+import { RocketsOptions } from "./rockets";
 import { RainfallOptions } from "./rainfall";
 import { SnowfallOptions } from "./snowfall";
 import { SpaceInvadersOptions } from "./spaceinvaders";
@@ -97,4 +98,14 @@ export const CHAT_EFFECTS: Array<Effect<{ [key: string]: any }>> = [
             gravity: 3.2,
         },
     } as Effect<HeartOptions>,
+    {
+        emojis: ["🚀"],
+        msgType: "io.element.effect.rockets",
+        command: "rockets",
+        description: () => _td("Sends the given message with rockets"),
+        fallbackMessage: () => _t("sends rockets") + " 🚀",
+        options: {
+            maxCount: 50,
+        },
+    } as Effect<RocketsOptions>,
 ];

@@ -940,6 +940,8 @@
     "sends rainfall": "sends rainfall",
     "Sends the given message with snowfall": "Sends the given message with snowfall",
     "sends snowfall": "sends snowfall",
+    "Sends the given message with rockets": "Sends the given message with rockets",
+    "sends rockets": "sends rockets",
     "Sends the given message with a space themed effect": "Sends the given message with a space themed effect",
     "sends space invaders": "sends space invaders",
     "Sends the given message with hearts": "Sends the given message with hearts",
